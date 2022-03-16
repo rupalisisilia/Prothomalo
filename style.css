@@ -56,14 +56,15 @@ ul{list-style-type: none;}
 }
 .top-area{
 	width: 100%;
-	height: 350px;
-	margin-top: 50px;
+	height: 450px;
+	background-color: aqua;
+	border-top: solid darkgray 1px;
+	padding-top: 20px;
 	overflow: hidden;
 }
-.top-area .img{
-	width: 24%;
-	height: 300px;
-	background-color: aqua;
+.top-area .cards{
+	width: 100%;
+	height: 400px;
 	overflow: hidden;
 	float: left;
 	margin-left: 1%;
@@ -71,4 +72,13 @@ ul{list-style-type: none;}
 }
 .top-area .wrapper{
 	margin-left: -1%;
+}
+.top-area .img{
+	width: 30%;
+	height: 400px;
+	float: left;
+}
+.top-area .text{
+	width: 20%;
+	float: left;
 }
