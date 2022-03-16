@@ -56,29 +56,29 @@ ul{list-style-type: none;}
 }
 .top-area{
 	width: 100%;
-	height: 450px;
-	background-color: aqua;
+	height: 550px;
 	border-top: solid darkgray 1px;
 	padding-top: 20px;
 	overflow: hidden;
 }
+.top-area .wrapper{
+	margin-left: -1%;
+}
 .top-area .cards{
-	width: 100%;
-	height: 400px;
+	width: 50%;
+	height: 250px;
+	background-color: aqua;
 	overflow: hidden;
 	float: left;
 	margin-left: 1%;
 
 }
-.top-area .wrapper{
-	margin-left: -1%;
-}
 .top-area .img{
-	width: 30%;
-	height: 400px;
+	width: 50%;
+	height: 200px;
 	float: left;
 }
 .top-area .text{
-	width: 20%;
+	width: 50%;
 	float: left;
 }
