@@ -84,6 +84,11 @@ ul{list-style-type: none;}
 h3{
 	font-size: 23px;
 	
+	
+}
+h3 :hover{
+	color: blue;
+	
 }
 h6{
 	padding-top: 15px;
@@ -181,7 +186,7 @@ p{
 }
 .bond-section{
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	
 	
 }
@@ -191,9 +196,8 @@ p{
 .bond-section .card-small-1{
 	border-top: solid darkgray 1px;
 	width: 25%;
-	
 	padding-top: 20px;
-	padding-right: 10px;
+	padding: 20px;
 	overflow: hidden;
 	float: left;
 }
@@ -202,7 +206,7 @@ p{
 	border-left: solid darkgray 1px;
 	width: 25%;
 	padding-top: 20px;
-	padding-left: 10px;
+	padding: 20px;
 	overflow: hidden;
 	float: left;
 }
@@ -211,9 +215,53 @@ p{
 	border-left: solid darkgray 1px;
 	width: 25%;
 	padding-top: 20px;
-	padding-left: ;
+	padding: 20px;
 	overflow: hidden;
 	float: left;
+}
+.boni-section{
+	width: 100%;
+	height: 200px;
+}
+.boni-section .cards-1{
+	border-top: solid darkgray 1px;
+	
+	width: 25%;
+	padding-top: 20px;
+	padding: 20px;
+	overflow: hidden;
+	float: left;
+}
+.boni-section .cards-2{
+	border-top: solid darkgray 1px;
+	border-left: solid darkgray 1px;
+	width: 25%;
+	padding-top: 20px;
+	padding: 20px;
+	overflow: hidden;
+	float: left;
+}
+.boni-section .cards-3{
+	border-top: solid darkgray 1px;
+	border-left: solid darkgray 1px;
+	width: 25%;
+	padding-top: 20px;
+	padding: 20px;
+	overflow: hidden;
+	float: left;
+}
+.add-section{
+	border-top: solid darkgray 1px;
+    width: 100%;
+	height: 250px;
+}
+.add-section .cards{
+	width: 60%;
+	height: 180px;
+	background-color: mediumslateblue;
+	margin-top: 2%;
+	margin-left: 25%;
+	
 }
 
 
