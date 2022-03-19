@@ -74,6 +74,30 @@ ul{list-style-type: none;}
 .navbar .nav ul li:hover{
 	color: red;
 }
+.topper-section{
+	border-top: solid darkgray 1px;
+    width: 100%;
+	height: 125px;
+}
+.topper-section .cards{
+	width: 85%;
+	height: 100px;
+	background-image: linear-gradient(45deg, skyblue, darkcyan);
+	margin-top: 1%;
+	margin-left: 8%;
+	
+	
+}
+.topper-section .text{
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
+.topper-section .text h1{
+	color: green;
+}
+
+
 .top-section{
 	width: 100%;
 	height: 300px;
@@ -225,7 +249,6 @@ p{
 }
 .boni-section .cards-1{
 	border-top: solid darkgray 1px;
-	
 	width: 25%;
 	padding-top: 20px;
 	padding: 20px;
@@ -256,13 +279,19 @@ p{
 	height: 250px;
 }
 .add-section .cards{
-	width: 60%;
-	height: 180px;
+	width: 75%;
+	height: 200px;
 	background-color: mediumslateblue;
 	margin-top: 2%;
-	margin-left: 25%;
+	margin-left: 15%;
 	
 }
+.add-section .text{
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+
 
 
 
