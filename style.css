@@ -82,7 +82,7 @@ ul{list-style-type: none;}
 .topper-section .cards{
 	width: 85%;
 	height: 100px;
-	background-image: linear-gradient(45deg, skyblue, darkcyan);
+	background-image: linear-gradient(45deg, rgb(178, 214, 228), darkcyan);
 	margin-top: 1%;
 	margin-left: 8%;
 	
@@ -290,6 +290,26 @@ p{
 	color: white;
 	text-align: center;
 	padding-top: 50px;
+}
+.add-section-1{
+	border-top: solid darkgray 1px;
+	width: 100%;
+	height: 100px;
+}
+.add-section-1 .cards-1{
+	width: 33%;
+	overflow: hidden;
+	padding-top: 50px;
+	float: left;
+
+}
+
+.add-section-1 .cards-2{
+	width: 33%;
+	padding-top: 50px;
+	overflow: hidden;
+	float: left;
+
 }
 
 
