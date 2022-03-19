@@ -82,7 +82,7 @@ ul{list-style-type: none;}
 .topper-section .cards{
 	width: 85%;
 	height: 100px;
-	background-image: linear-gradient(45deg, rgb(178, 214, 228), darkcyan);
+	background-image: linear-gradient( skyblue, green);
 	margin-top: 1%;
 	margin-left: 8%;
 	
@@ -281,7 +281,7 @@ p{
 .add-section .cards{
 	width: 75%;
 	height: 200px;
-	background-color: mediumslateblue;
+	background-color: rgb(174, 162, 238);
 	margin-top: 2%;
 	margin-left: 15%;
 	
