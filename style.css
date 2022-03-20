@@ -182,6 +182,24 @@ p{
 .card-lead, .card-nonlead{
 	cursor: pointer;
 }
+.bannar-section .card-nonlead .text-1 .p-head:hover{
+	color: blue;
+}
+.bannar-section .card-nonlead .text-2 .p-head:hover{
+	color: blue;
+}
+.bannar-section .card-nonlead .text-3 .p-head:hover{
+	color: blue;
+}
+.bannar-section .card-nonlead .text-4 .p-head:hover{
+	color: blue;
+}
+.card-small-1, .card-small-2, .card-small-3{
+	cursor: pointer;
+}
+.cards-1, .cards-2, .cards-3{
+	cursor: pointer;
+}
 
 .bannar-section .card-nonlead .text-1{
 	width: 25%;
