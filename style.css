@@ -358,33 +358,54 @@ p{
 	border-top: solid darkgray 1px;
 	overflow: hidden;
 	float: left;
-	margin-left: 1%;
-	
-	
-	
+	margin-left: 1%;	
 }
 .tree-width .cards-1 h1{
 	padding-left: 15px;
 }
 .tree-width .cards-1 h5{
 	border-bottom: solid darkgray 1px;
-	padding: 5px 10px;
-
+	padding-bottom: 10px;
+}
+.tree-width .cards-1 h5:hover{
+	color: green;
 }
 .tree-width .cards-2{
 	width: 45%;
-	height: 280px;
+	height: 650px;
 	overflow: hidden;
 	float: left;
 	margin-left: 1%;
-	border-left: solid darkgray 1px;
-	
-	
+	border-left: solid darkgray 1px;	
 	
 }
-.tree-width .cards-2 .img{
-	width: 99%;
-	padding: 0 20px 20px 20px;
+.photo-frame{
+	width: 45%px;
+	height: 200px;
+	
+	position: relative;
+}
+.photo-frame .photo img{
+	width: 100%;
+	
+}
+.photo-detail{
+	position: absolute;
+	width: 90%;
+	height: 200px;
+	padding-left: 25px;
+	top: 80px;
+}
+.tree-width .cards-2 h2{
+	color: white;
+	
+	font-size: 25px;
+}
+.tree-width .cards-2 h2:hover{
+	color: green;
+}
+.yellow{
+	color: green;
 }
 .tree-width .cards-3{
 	width: 26%;
