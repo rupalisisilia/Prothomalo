@@ -387,25 +387,29 @@ p{
 }
 .photo-frame .photo img{
 	width: 100%;
+	padding: 0 20px 20px 20px;
 	
 }
 .photo-detail{
 	position: absolute;
 	width: 90%;
 	height: 200px;
-	padding-left: 25px;
-	top: 80px;
+	padding-left: 30px;
+	top: 270px;
 }
 .tree-width .cards-2 h2{
-	color: white;
+	color: green;
 	
 	font-size: 25px;
 }
 .tree-width .cards-2 h2:hover{
-	color: green;
+	color: red;
 }
 .yellow{
-	color: green;
+	color: red;
+}
+.tree-width .cards-2 .part-1{
+	width: 45%;
 }
 .tree-width .cards-3{
 	width: 26%;
