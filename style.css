@@ -365,7 +365,7 @@ p{
 }
 .tree-width .cards-1 h5{
 	border-bottom: solid darkgray 1px;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 }
 .tree-width .cards-1 h5:hover{
 	color: green;
@@ -409,12 +409,28 @@ p{
 	color: red;
 }
 .tree-width .cards-2 .part-1{
-	width: 100%;
+	width: 98%;
 	height: 200px;
+	padding-left: 30px;
+	overflow: hidden;
+	float: left;
 }
 .tree-width .cards-2 .part-1 h5{
-	width: 50%;	
+	width: 48%;
+	padding: 10px;
+	font-size: 15px;
+	
 }
+.tree-width .cards-2 .part-1 h5:hover{
+	color: blue;
+}
+.tree-width .cards-2 .part-1 h6{
+	padding: 2px;
+}
+.red{
+	color: red;
+}
+
 
 .tree-width .cards-3{
 	width: 26%;
