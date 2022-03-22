@@ -332,10 +332,11 @@ p{
 	width: 100%;
 	height: 100px;
 }
-.add-section-1 .cards-1{
+.add-section-1 .cards-1 .nav{
 	width: 33%;
+	height: 100px;
 	overflow: hidden;
-	padding-top: 50px;
+	padding-top: 10px;
 	float: left;
 
 }
@@ -352,7 +353,7 @@ p{
 	height: 650px;
 	overflow: hidden;
 }
-.tree-width .cards-1{
+.tree-width .card-et-large{
 	width: 26%;
 	height: 650px;
 	border-top: solid darkgray 1px;
@@ -360,17 +361,17 @@ p{
 	float: left;
 	margin-left: 1%;	
 }
-.tree-width .cards-1 h1{
+.tree-width .card-et-large h1{
 	padding-left: 15px;
 }
-.tree-width .cards-1 h5{
+.tree-width .card-et-large h5{
 	border-bottom: solid darkgray 1px;
 	padding-bottom: 30px;
 }
-.tree-width .cards-1 h5:hover{
+.tree-width .card-et-large h5:hover{
 	color: green;
 }
-.tree-width .cards-2{
+.tree-width .card-et-big{
 	width: 45%;
 	height: 650px;
 	overflow: hidden;
@@ -397,34 +398,34 @@ p{
 	padding-left: 30px;
 	top: 270px;
 }
-.tree-width .cards-2 h2{
+.tree-width .card-et-big h2{
 	color: green;
 	
 	font-size: 25px;
 }
-.tree-width .cards-2 h2:hover{
+.tree-width .card-et-big h2:hover{
 	color: red;
 }
 .yellow{
 	color: red;
 }
-.tree-width .cards-2 .part-1{
+.tree-width .card-et-small .part-1{
 	width: 98%;
 	height: 200px;
 	padding-left: 30px;
 	overflow: hidden;
 	float: left;
 }
-.tree-width .cards-2 .part-1 h5{
+.tree-width .card-et-small .part-1 h5{
 	width: 48%;
 	padding: 10px;
 	font-size: 15px;
 	
 }
-.tree-width .cards-2 .part-1 h5:hover{
+.tree-width .card-et-small .part-1 h5:hover{
 	color: blue;
 }
-.tree-width .cards-2 .part-1 h6{
+.tree-width .card-et-small .part-1 h6{
 	padding: 2px;
 }
 .red{
