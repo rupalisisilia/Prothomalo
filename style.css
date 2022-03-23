@@ -384,6 +384,12 @@ p{
 .tree-width .card-et-large h5:hover{
 	color: green;
 }
+.tree-width h5{
+	cursor: pointer;
+}
+.card-et-big, .card-et-small{
+	cursor: pointer;
+}
 .tree-width .card-et-big{
 	width: 45%;
 	height: 650px;
@@ -422,23 +428,23 @@ p{
 .yellow{
 	color: red;
 }
-.tree-width .card-et-small .part-1{
+.tree-width .card-et-small-1{
 	width: 98%;
 	height: 200px;
 	padding-left: 30px;
 	overflow: hidden;
 	float: left;
 }
-.tree-width .card-et-small .part-1 h5{
+.tree-width .card-et-small-1 h5{
 	width: 48%;
 	padding: 10px;
 	font-size: 15px;
 	
 }
-.tree-width .card-et-small .part-1 h5:hover{
+.tree-width .card-et-small-1 h5:hover{
 	color: blue;
 }
-.tree-width .card-et-small .part-1 h6{
+.tree-width .card-et-small-1 h6{
 	padding: 2px;
 }
 .red{
