@@ -366,7 +366,7 @@ p{
 	height: 650px;
 	overflow: hidden;
 }
-.tree-width .card-et-large{
+.tree-width .left-section{
 	width: 26%;
 	height: 650px;
 	border-top: solid darkgray 1px;
@@ -374,23 +374,23 @@ p{
 	float: left;
 	margin-left: 1%;	
 }
-.tree-width .card-et-large h1{
+.tree-width .left-section h1{
 	padding-left: 15px;
 }
-.tree-width .card-et-large h5{
+.tree-width .left-section h5{
 	border-bottom: solid darkgray 1px;
 	padding-bottom: 30px;
 }
-.tree-width .card-et-large h5:hover{
+.tree-width .left-section h5:hover{
 	color: green;
 }
 .tree-width h5{
 	cursor: pointer;
 }
-.card-et-big, .card-et-small{
+.middle-section, .right-section{
 	cursor: pointer;
 }
-.tree-width .card-et-big{
+.tree-width .middle-section{
 	width: 45%;
 	height: 650px;
 	overflow: hidden;
@@ -399,52 +399,34 @@ p{
 	border-left: solid darkgray 1px;	
 	
 }
-.photo-frame{
-	width: 45%px;
-	height: 200px;
-	
-	position: relative;
-}
-.photo-frame .photo img{
-	width: 100%;
-	padding: 0 20px 20px 20px;
-	
-}
-.photo-detail{
-	position: absolute;
-	width: 90%;
-	height: 200px;
-	padding-left: 30px;
-	top: 270px;
-}
-.tree-width .card-et-big h2{
+.tree-width .middle-section h2{
 	color: green;
 	
 	font-size: 25px;
 }
-.tree-width .card-et-big h2:hover{
+.tree-width .middle-section h2:hover{
 	color: red;
 }
 .yellow{
 	color: red;
 }
-.tree-width .card-et-small-1{
+.tree-width .right-section{
 	width: 98%;
 	height: 200px;
 	padding-left: 30px;
 	overflow: hidden;
 	float: left;
 }
-.tree-width .card-et-small-1 h5{
+.tree-width .right-section h5{
 	width: 48%;
 	padding: 10px;
 	font-size: 15px;
 	
 }
-.tree-width .card-et-small-1 h5:hover{
+.tree-width .right-section h5:hover{
 	color: blue;
 }
-.tree-width .card-et-small-1 h6{
+.tree-width .right-section h6{
 	padding: 2px;
 }
 .red{
@@ -469,3 +451,26 @@ p{
 	
 }
 
+.large-news{
+	width: 96%;
+	margin-left: 4%;
+	margin-bottom: 20px;
+	float: left;
+	overflow: hidden;
+}
+.large-news .photo{
+	position: relative;
+}
+.large-news .photo .text{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+}
+.small-news{
+	width: 46%;
+	float: left;
+	margin-left: 4%;
+}
