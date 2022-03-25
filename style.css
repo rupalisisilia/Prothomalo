@@ -415,24 +415,18 @@ p{
 
 }
 .tree-width .right-section{
-	width: 98%;
+	width: 27%;
 	height: 200px;
-	padding-left: 30px;
+	padding-left: 10px;
 	overflow: hidden;
 	float: left;
 }
+
 .tree-width .right-section h5{
-	width: 48%;
-	padding: 10px;
-	font-size: 15px;
 	
+
 }
-.tree-width .right-section h5:hover{
-	color: blue;
-}
-.tree-width .right-section h6{
-	padding: 2px;
-}
+
 .red{
 	color: red;
 }
