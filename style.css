@@ -522,28 +522,46 @@ p{
 	overflow: hidden;
 	float: left;
 }
-.red-section .cards-1 .img{
-	padding: 0 20px 0 0;
-
+.red-section .cards-1 .large-news .img{
+	padding-right: 20px;
+	border-right: solid darkgray 1px;
+	
 }
-.red-section .cards-1 .text{
-	padding-bottom: 40px;
+.red-section .cards-1.large-news .text h3{
+	
 }
 .red-section .cards-2{
 	width: 25%;
 	height: 400px;
 	overflow: hidden;
-	float: left;background-color: aquamarine;
+	float: left;
+	
 }
-.red-section .cards-2
+.red-section .cards-2 .small-news{
+	width: 100%;
+	
+}
+.red-section .cards-2 .small-news .img{
+	padding-right: 20px;
+	border-right: solid darkgray 1px;
+
+}
 .red-section .cards-3{
-	width: 24%;
-	height: 500px;
+	width: 25%;
+	height: 700px;
 	overflow: hidden;
 	float: left;
-	padding-left: 20px;
-	background-color: aqua;
 }
+.red-section .cards-3 .small-news{
+	width: 100%;
+	height: 200px;
+	padding: 20px;
+	border-right: solid darkgray 1px;
+
+	
+	
+}
+
 .red-section .wrapper{
-	margin-left: -1%;
+	margin-left: -2%;
 }
