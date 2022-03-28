@@ -387,12 +387,13 @@ p{
 	width: 100%;
 	height: 650px;
 	overflow: hidden;
-	border-bottom: solid darkgray 1px;
+	
 }
 .tree-width .left-section{
 	width: 26%;
 	height: 650px;
 	border-top: solid darkgray 1px;
+	border-bottom: solid darkgray 1px;
 	overflow: hidden;
 	float: left;
 	margin-left: 1%;	
@@ -414,6 +415,7 @@ p{
 	cursor: pointer;
 }
 .tree-width .middle-section{
+	border-bottom: solid darkgray 1px;
 	width: 45%;
 	height: 650px;
 	overflow: hidden;
@@ -444,6 +446,7 @@ p{
 	overflow: hidden;
 	float: left;
 	border-left: solid darkgray 1px;
+	border-bottom: solid darkgray 1px;
 
 }
 .tree-width .right-section .small-news{
@@ -494,28 +497,30 @@ p{
 }
 .green-section{
 	width: 100%;
-	height: 300px;
-
+	height: 350px;
+	
 }
 .green-section .card{
 	width: 25%;
+	height: 350px;
 	overflow: hidden;
 	float: left;
 	padding:  0 20px 20px 20px;
 	border-top: none;
+	
 }
 .green-section .card .img{
 	border-right: solid darkgray 1px;
 
 }
 .green-section h3{
-	padding-top: 50px;
+	padding-top: 5px;
 }
 .red-section{
 	width: 100%;
 	height: 500px;
 	overflow: hidden;
-	border-top: solid darkgray 1px;
+	
 }
 .red-section .cards-1{
 	width: 49%;
@@ -524,8 +529,7 @@ p{
 	float: left;
 }
 .red-section .cards-1 .large-news .img{
-	padding-right: 20px;
-	border-right: solid darkgray 1px;
+	border-left: solid darkgray 1px;
 	
 }
 .red-section .cards-1.large-news .text h3{
@@ -543,8 +547,7 @@ p{
 	
 }
 .red-section .cards-2 .small-news .img{
-	padding-right: 20px;
-	border-right: solid darkgray 1px;
+	border-left: solid darkgray 1px;
 
 }
 .red-section .cards-3{
@@ -556,70 +559,35 @@ p{
 .red-section .cards-3 .small-news{
 	width: 100%;
 	height: 200px;
-	padding: 20px;
-	border-right: solid darkgray 1px;
-
-	
+	border-left: solid darkgray 1px;
 	
 }
 
 .red-section .wrapper{
 	margin-left: -2%;
 }
+
 .blue-section{
 	width: 100%;
-	height: 500px;
-	overflow: hidden;
-	border-top: solid darkgray 1px;
-	padding-top: 10px;
+	height: 300px;
+	overflow: hidden;	
+	
 }
 .blue-section .wrapper{
 	margin-left: -2%;
 }
 
-.blue-section .cards-1{
+.blue-section .cards{
+	border-top: solid darkgray 1px;
+	border-right: solid darkgray 1px;
 	width: 25%;
 	height:300px;
 	overflow: hidden;
 	float: left;	
 }
-.blue-section .cards-1 .small-news{
+.blue-section .cards .small-news{
 	width: 100%;
-	padding: 10px;
-	border-right: solid darkgray 1px;
-	text-align: left;
-	
-}
-.blue-section .cards-1 .small-news.text{
+	padding: 10px 5px 5px 5px;
 	
 	
-}
-.blue-section .cards-2{
-	width: 25%;
-	height: 300px;
-	overflow: hidden;
-	float: left;
-	
-}
-.blue-section .cards-2 .small-news{
-	width: 100%;
-	padding: 10px;
-	border-right: solid darkgray 1px;
-	text-align: justify;
-}
-.blue-section .cards-2 .small-news .text{
-	
-
-}
-.blue-section .cards-3{
-	width: 25%;
-	height: 300px;
-	overflow: hidden;
-	float: left;
-	
-}
-.blue-section .cards-3 .small-news{
-	width: 100%;
-	padding: 10px;
-	border-right: solid darkgray 1px;
 }
