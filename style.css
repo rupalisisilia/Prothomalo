@@ -597,28 +597,30 @@ p{
 .black-section h3{
 	padding-top: 5px;
 }
-
+.black-section .card h5:hover{
+	color: blue;
+}
+.black-section .card .ul .li{
+	text-align: center;
+	padding-top: 30px;
+}
 .blue-section{
 	width: 100%;
-	height: 300px;
-	overflow: hidden;	
-	
 }
-.blue-section .wrapper{
-	margin-left: -2%;
+.blue-section .card-1{
+	width: 50%;
+	overflow: hidden;
+	float: left;
+}
+.blue-section .card-1 .img{
+	width: 100%;
+}
+.blue-section .card-2{
+	width: 50%;
+	overflow: hidden;
+	float: left;
+}
+.blue-section .card-2 .img{
+
 }
 
-.blue-section .cards{
-	border-top: solid darkgray 1px;
-	border-right: solid darkgray 1px;
-	width: 24.7%;
-	height:300px;
-	overflow: hidden;
-	float: left;	
-}
-.blue-section .cards .small-news{
-	width: 100%;
-	padding: 10px 5px 5px 5px;
-	
-	
-}
