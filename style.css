@@ -491,7 +491,7 @@ p{
 	transform: translate(-50%, -100%);
 }
 .small-news{
-	width: 46%;
+	width: 96%;
 	float: left;
 	margin-left: 4%;
 }
@@ -524,7 +524,6 @@ p{
 }
 .red-section .cards-1{
 	width: 50%;
-	
 	overflow: hidden;
 	float: left;
 }
@@ -552,15 +551,13 @@ p{
 }
 .red-section .cards-3{
 	width: 23%;
-	
 	overflow: hidden;
 	float: left;
 	
 }
 .red-section .cards-3 .small-news{
 	width: 100%;
-	
-	
+		
 	
 }
 .red-section h2{
@@ -595,7 +592,7 @@ p{
 
 }
 .black-section h3{
-	padding-top: 5px;
+	padding-top: 10px;
 }
 .black-section .card h5:hover{
 	color: blue;
@@ -606,21 +603,45 @@ p{
 }
 .blue-section{
 	width: 100%;
+		
+}
+.blue-section .wrapper{
+	margin-left: -2%;
+	
 }
 .blue-section .card-1{
-	width: 50%;
+	width: 48%;
 	overflow: hidden;
 	float: left;
+	
+	
 }
 .blue-section .card-1 .img{
 	width: 100%;
+	padding: 8px;
+	
 }
-.blue-section .card-2{
-	width: 50%;
+.blue-section .card-1:hover{
+	color: blue;
+}
+.blue-section .card-2 .small-news{
+	width: 48%;
 	overflow: hidden;
 	float: left;
+	
+	padding: 8px;
+	border-left: solid #e2e2e2 1px;
+	border-bottom: solid #e2e2e2 1px;
+
+	
+
+
 }
 .blue-section .card-2 .img{
-
+	width: 100%;
+		
+}
+.blue-section .card-2:hover{
+	color: blue;
 }
 
