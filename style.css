@@ -674,7 +674,7 @@ p{
 }
 .play-section .cards-1 .img{
 	width: 100%;
-	padding: 10px;
+	padding: 0px 10px 5px 20px;
 }
 .play-section .small-news{
 	border-top: solid #e2e2e2 1px;
@@ -700,17 +700,17 @@ p{
 	overflow: hidden;
 	float: left;
 }
-.play-section .cards-3 .half-small-news-1{
-	width: 25%;
+.play-section .cards-3 .half-small-news{
+	width: 48%;
 	overflow: hidden;
 	float: left;
+	margin-left: 2%;
+	border: solid #e2e2e2 1px;
+	border-top: none;
+	height: 300px;;
 }
-.play-section .cards-3 .half-small-news-1 .img{
-	width: 100%;
+.play-section .cards-3 .half-small-news .text{
+	padding: 10px;
 }
-.play-section .cards-3 .half-small-news-2{
-	width: 14%;
-	overflow: hidden;
-	float: left;
-} 
+ 
 
