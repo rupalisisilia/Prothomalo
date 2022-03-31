@@ -689,6 +689,7 @@ p{
 	width: 30%;
 	overflow: hidden;
 	float: left;
+	border-right: solid #e2e2e2 1px;
 }
 .play-section .cards-2 .img{
 	width: 100%;
@@ -696,6 +697,19 @@ p{
 }
 .play-section .cards-3{
 	width: 40%;
+	overflow: hidden;
+	float: left;
+}
+.play-section .cards-3 .half-small-news-1{
+	width: 25%;
+	overflow: hidden;
+	float: left;
+}
+.play-section .cards-3 .half-small-news-1 .img{
+	width: 100%;
+}
+.play-section .cards-3 .half-small-news-2{
+	width: 14%;
 	overflow: hidden;
 	float: left;
 } 
