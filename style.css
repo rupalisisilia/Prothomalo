@@ -643,17 +643,17 @@ p{
 .Add-section-2{
 	border-top: solid #e2e2e2 1px;
     width: 100%;
-	height: 120px;
+	height: 100px;
 }
 .Add-section-2 .text h2{
 	text-align: left;
-	padding-top: 50px;
+	padding-top: 70px;
 	float: left;
 	overflow: hidden;
 }
 .Add-section-2 .text h3{
 	text-align: center;
-	padding-top: 55px;
+	padding-top: 80px;
 	overflow: hidden;
 	margin-left: 50%;
 }
@@ -679,8 +679,6 @@ p{
 .play-section .small-news{
 	border-top: solid #e2e2e2 1px;
 	padding: 10px;
-	
-
 }
 .play-section .text h3:hover{
 	color: blue;
@@ -710,6 +708,34 @@ p{
 	height: 300px;;
 }
 .play-section .cards-3 .half-small-news .text{
+	padding: 10px;
+}
+
+.Add-section-3{
+	border-top: solid #e2e2e2 1px;
+    width: 100%;
+	height: 100px;
+}
+.Add-section-3 .text h3{
+	text-align: left;
+	padding-top: 70px;
+	float: left;
+	overflow: hidden;
+}
+.binodon-section{
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	border-bottom: solid #e2e2e2 1px;
+}
+.binodon-section .cards-1{
+	width: 30%;
+	overflow: hidden;
+	float: left;
+	border-right: solid #e2e2e2 1px;
+}
+.binodon-section .small-news{
+	border-top: solid #e2e2e2 1px;
 	padding: 10px;
 }
  
